@@ -41,9 +41,28 @@ h2{
 	margin-left: -50%;
 	width: 150%;
 }
-.video{
+/*.video{
 	margin-left: -15%;
+	width: 115% !important;
+	height: auto !important;
 
+}*/
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 70%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+/*	margin: 1px solid green;*/
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 130%;
+	height: 100%;
+	margin-left: -15%;
+	
 }
 
 
